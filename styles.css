@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+#result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
